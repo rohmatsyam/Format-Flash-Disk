@@ -1,0 +1,12 @@
+Buka CMD sebagai admin
+
+diskpart
+list disk
+sel disk
+list vol
+sel vol
+clean
+create partition primary
+active
+format fs=ntfs quick
+assign
